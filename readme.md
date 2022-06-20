@@ -13,7 +13,7 @@ Un blog increíble para el [curso de Frontend Developer](https://platzi.com/curs
 
 ## Recursos del curso 
 * En [htmlreference.io](https://htmlreference.io/) podemos encontrar la documentacion de etiquetas html
-* 
+* En [htmlcolorcodes.com](https://htmlcolorcodes.com/es/) podemos ver todas las gamas de colores precargadas por nombre para usar en css
 * 
 * 
 * 

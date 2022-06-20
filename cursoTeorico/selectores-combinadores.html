@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div p {
+            /*decendiente*/
+            background: lime;
+        }
+        
+        div>div {
+            /*hijo directo*/
+            background: plum;
+        }
+        
+        p+section {
+            /*elemento adyacente*/
+            background: palevioletred;
+        }
+        
+        section~p {
+            /*general de hermanos*/
+            color: powderblue;
+        }
+    </style>
+</head>
+
+<body>
+    <div>
+        <p>hola</p>
+        <p>platzi</p>
+        <div class="es">es</div>
+        <div class="es">genial</div>
+    </div>
+    <p>adios</p>
+    <section>es lo mejor</section>
+    <section>es lo mejor2</section>
+    <p>clase de selectores</p>
+    <p>clase de selectores</p>
+    <div>master</div>
+</body>
+
+</html>

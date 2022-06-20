@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        p {
+            color: salmon;
+            font-size: 40px;
+        }
+        
+        p::first-letter {
+            color: blue;
+        }
+        
+        p::before {
+            content: "♦";
+        }
+        
+        div p:nth-child(2) {
+            color: violet;
+        }
+        
+        .hola {
+            background-color: black;
+        }
+        
+         ::placeholder {
+            color: tomato;
+        }
+        
+        .otro p::first-line {
+            color: blue;
+            text-transform: uppercase;
+        }
+        
+        p:hover {
+            color: skyblue;
+        }
+    </style>
+</head>
+
+<body>
+    <p>Hola</p>
+    <p>adios</p>
+    <div class="hola">
+        <p>platzi</p>
+        <p>master</p>
+        <p>lo mejor</p>
+    </div>
+    <input type="text" placeholder="name">
+    <div class="otro">
+        <p>Las incidencias son trabajos individuales que se asignan a los compañeros de equipo. Las incidencias pueden ser tareas o historias.</p>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Página web básica HTML (plantilla)</title>
+    <style></style>
+</head>
+
+<body>
+    <h1>Página web básica HTML (plantilla)</h1>
+
+    <section id="pagina-basica">
+        <h2>Página web básica HTML</h2>
+
+        <p>El ejemplo siguiente muestra una página web básica HTML escrita con sintaxis HTML.</p>
+
+        <p>En este código se pueden reconocer algunos bloques anidados en el que cada bloque corresponde a una etiqueta:</p>
+        <ul>
+            <li>La primera etiqueta es obligatoria e indica el tipo de documento (DOCTYPE) de la página. Existen varios tipos de documentos que corresponden a las diferentes versiones de HTML y XHTML. El tipo "html" es el que corresponde al HTML.
+            </li>
+            <li>La etiqueta engloba todo el documento html.</li>
+            <li>Un documento html se divide en dos partes, la cabecera y el cuerpo
+                <ul>
+                    <li>La cabecera contiene información de identificación y control que en general no se muestra en la ventana del navegador, aunque puede afectar a la presentación (por ejemplo, los enlaces a hojas de estilo).
+                        <ul>
+                            <li>Las etiquetas están pensadas para proporcionar información sobre el documento a los programas que analicen la página y por ello existen muchas etiquetas <span class="html-eti">&lt;meta&gt;</span> diferentes. Por ejemplo, la
+                                etiqueta keywords está pensada para informar a los buscadores de los temas tratados en la página pero, por desgracia, se ha abusado mucho de esta etiqueta así que los buscadores no la toman prácticamente en cuenta).
+                                <ul>
+                                    <li>La primera etiqueta del ejemplo informa del juego de caracteres empleado en la página, en este caso UTF-8.</li>
+                                    <li>La segunda etiqueta del ejemplo se utiliza para mejorar la presentación de las páginas webs en las pantallas de los teléfonos móviles y, en general, en las <a href="https://www.mclibre.org/consultar/htmlcss/css/css-media-queries.html#meta-viewport">pantallas de alta densidad</a>.</li>
+                                </ul>
+                            </li>
+                            <li>La etiqueta de título es obligatoria y debe incluirse en todas las páginas web. Contiene el texto que se muestra en la pestaña del navegador, como muestra el siguiente ejemplo. Si el texto es largo, la pestaña sólo mostrará
+                                el principio, pero situando el ratón sobre la pestaña, el texto completo se mostrará en una pequeña ventana flotante.
+
+                                <p><strong>Nota</strong>: Hace unos años el contenido de se mostraba en la barra de título de la ventana del navegador, pero los navegadores han ido perdiendo ese elemento de la interfaz en su búsqueda de maximizar el espacio
+                                    disponible para el contenido.</p>
+                            </li>
+                            <li>La etiqueta permite hacer referencia a otro documento.
+                                <ul>
+                                    <li>El atributo indica en general la relación entre los dos documentos. En este caso, el valor del atributo indica que se está haciendo referencia a una hoja de estilo CSS.</li>
+                                    <li>El atributo indica el nombre y la ruta (absoluta o relativa) del archivo que contiene la hoja de estilo.</li>
+                                    <li>El atributo indica el tipo MIME del documento enlazado. En el caso de una hoja de estilo, el valor del atributo sería, pero como se trata de una información redundante, en HTML este atributo es optativo.</li>
+                                </ul>
+                            </li>
+                            <li>La cabecera podría contener también una etiqueta, que permite incluir directamente código JavaScript en el documento o hacer referencia al documento en el que se encuentra ese código.
+
+                                <p>En este caso, el atributo nos indicaría el nombre y la ruta del fichero que contiene el código.<br>
+                                    <strong>Nota</strong>: El lenguaje de programación JavaScript queda fuera del contenido de este curso.</p>
+                            </li>
+                        </ul>
+                    </li>
+                    <li>El cuerpo contiene lo que se verá en la ventana del navegador. En el ejemplo sólo contiene un párrafo.</li>
+                </ul>
+            </li>
+        </ul>
+        <p><strong>Nota</strong>: En la <a href="https://www.mclibre.org/consultar/htmlcss/otros/ampliaciones.html#plantillas-variedades-html-xhtml">lección Ampliaciones</a> se muestran páginas básicas de otras versiones y variedades de HTML.</p>
+    </section>
+
+    <footer>
+        <p class="ultmod">Última modificación de esta página: 14 de octubre de 2019</p>
+    </footer>
+</body>
+
+</html>

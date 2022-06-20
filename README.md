@@ -4,6 +4,14 @@ Un blog increíble para el [curso de Frontend Developer](https://platzi.com/curs
 > - VictorAlas
 
 ## En este curso ví de todo
+* En [htmlreference.io](https://htmlreference.io/) podemos encontrar la documentacion de etiquetas html
+* 
+* 
+* 
+* 
+* 
+
+## Recursos del curso 
 * 
 * 
 * 

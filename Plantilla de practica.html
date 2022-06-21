@@ -6,7 +6,27 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Página web básica HTML (plantilla)</title>
-    <style></style>
+    <style>
+        .pagina-basica {
+            background-color: blue;
+        }
+        
+        #pagina-basica {
+            color: aquamarine;
+        }
+        
+        * {
+            background-color: mediumvioletred;
+        }
+        
+        section>h2 {
+            background: plum;
+        }
+        
+        li+li {
+            font-family: 'Courier New', Courier, monospace;
+        }
+    </style>
 </head>
 
 <body>
@@ -19,7 +39,7 @@
 
         <p>En este código se pueden reconocer algunos bloques anidados en el que cada bloque corresponde a una etiqueta:</p>
         <ul>
-            <li>La primera etiqueta es obligatoria e indica el tipo de documento (DOCTYPE) de la página. Existen varios tipos de documentos que corresponden a las diferentes versiones de HTML y XHTML. El tipo "html" es el que corresponde al HTML.
+            <li class="pagina-basica">La primera etiqueta es obligatoria e indica el tipo de documento (DOCTYPE) de la página. Existen varios tipos de documentos que corresponden a las diferentes versiones de HTML y XHTML. El tipo "html" es el que corresponde al HTML.
             </li>
             <li>La etiqueta engloba todo el documento html.</li>
             <li>Un documento html se divide en dos partes, la cabecera y el cuerpo

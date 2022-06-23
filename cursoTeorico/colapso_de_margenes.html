@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .contenedor {
+            display: flex;
+            /*para ver el traslape comentamos la linea de display
+            y se nota como se tralapan*/
+            flex-direction: column;
+        }
+        
+        p {
+            height: 100px;
+            width: 100px;
+            margin: 10px;
+        }
+        
+        #sol {
+            background-color: orangered;
+        }
+        
+        #luna {
+            background-color: blue;
+            color: white;
+        }
+        
+        .contenedor_grid {
+            display: grid;
+            /*para ver el traslape comentamos la linea de display
+            y se nota como se tralapan*/
+            flex-direction: column;
+        }
+        
+        #sol_grid {
+            background-color: orangered;
+        }
+        
+        #luna_grid {
+            background-color: blue;
+            color: white;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <p id="sol">sol</p>
+        <p id="luna">luna</p>
+    </div>
+    <div class="contenedor_grid">
+        <p id="sol_grid">sol</p>
+        <p id="luna_grid">luna</p>
+    </div>
+</body>
+
+</html>

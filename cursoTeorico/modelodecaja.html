@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>modelo de caja</title>
+    <style>
+        div {
+            width: 20px;
+            height: 20px;
+            background-color: papayawhip;
+            /* aqui termina el formato para el content */
+            padding: 20px;
+            /* se le da un valor para el grosor del 
+            pading el cual se suma al tama;o del content*/
+            box-sizing: border-box;
+            /*esta propiedad sin ayuda a que
+            los pading, y borden no se sumen al valor total del tamano
+            del content, si no que ajusta todo el contenido usando como valor
+            maximo el width y height*/
+            border: 5px solid saddlebrown;
+            /*agrega marco al content+pading
+            sus parametros son tamano forma y color en ese orden*/
+            margin: 20px;
+            /*agrega un margen general a la etiqueta sin 
+            embargo al usarse en una pagina con multiples elementos
+            estos margin en lugar de sumarse se traslapan*/
+        }
+    </style>
+</head>
+
+<body>
+    <div>platzi</div>
+    <div>es lo maximo</div>
+</body>
+
+</html>

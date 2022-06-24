@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img {
+            float: right;
+        }
+        
+        .prueba-fea {
+            clear: right;
+        }
+        
+        div.contenedor {
+            height: 50px;
+            background-color: #18abdb;
+        }
+        
+        div.contenedor div.left {
+            float: left;
+            padding: 7px;
+        }
+        
+        div.contenedor div.right {
+            float: right;
+            padding: 7px;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="left"> BLOQUE1</div>
+        <div class="left"> BLOQUE2 </div>
+        <div class="left"> BLOQUE3 </div>
+        <div class="left"> BLOQUE4 </div>
+    </div><br>
+    <h1> Título de página </h1>
+    <p> Este es un párrafo, para probar la propiedad float de CSS; en esta ocasión haremos que esta imagen: <img src="preca.JPG" />contenida dentro de este párrafo pueda flotar al lado derecho, de tal manera que el texto envuelva a dicha hermosa imagen, pues
+        queremos </p>
+    <!-- <p>notar el aspecto y por ello seguimos agregando más texto importante...De no haber aplicado la propiedad float seguramente la imagen aparecería justo despues de los dos puntos, ya que aquí todos sabemos que imagen es un elemento de linea...Gracias
+        a float: right logramos sacar a imagen del flujo y flotarla hacia la derecha...</p> -->
+    <p class="img\prueba-fea">esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba
+        fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una prueba fea esta es una
+        prueba fea
+    </p>
+    <div class="contenedor">
+        <div class="right"> BLOQUE5</div>
+        <div class="right"> BLOQUE6</div>
+        <div class="right"> BLOQUE7</div>
+        <div class="right"> BLOQUE8</div>
+
+    </div>
+</body>
+
+</html>

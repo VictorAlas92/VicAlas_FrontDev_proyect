@@ -26,7 +26,7 @@ Un blog increíble para el [curso de Frontend Developer](https://platzi.com/curs
 🤓[cssbattle](https://cssbattle.dev/)
 🤓[flexboxzombies](https://mastery.games/flexboxzombies/)
 🤓[css grid attack](https://codingfantasy.com/games/css-grid-attack)
-* 
+* En [cssreference.io](https://cssreference.io/) podemos encontrar la documentacion de etiquetas css
 * 
 * 
 
